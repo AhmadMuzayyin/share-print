@@ -1,0 +1,100 @@
+/* Navbar */
+.navbar-brand {
+    font-family: viga;
+}
+
+.nav-link {
+    font-family: 'Palanquin Dark', sans-serif;
+}
+
+/* Jumbotron */
+.jumbotron {
+    background: rgb(0, 121, 255);
+    background: linear-gradient(90deg, rgba(0, 121, 255, 1) 10%, rgba(3, 3, 176, 1) 60%, rgba(66, 0, 107, 1) 100%);
+    color: white;
+    text-align: center;
+    height: 300px;
+}
+
+.jumbotron h1 {
+    font-weight: 500;
+    font-family: viga;
+    margin-top: 80px;
+}
+
+.jumbotron p {
+    font-style: italic;
+    color: gainsboro;
+    margin-top: -20px;
+}
+
+.tambnail {
+    margin: 20px;
+}
+
+/* About */
+.about {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.about h4 {
+    font-size: 52px;
+    font-weight: 200;
+    margin-top: 30px;
+}
+
+.about p {
+    font-style: italic;
+    color: gray;
+    margin: 30px 0;
+}
+
+/* Gallery */
+.product img {
+    margin-top: 30px;
+}
+
+/* Footer */
+.footer-widget p {
+    margin-bottom: 27px;
+}
+
+
+/* Utility */
+.tombol {
+    border-radius: 50px;
+}
+
+/* DESKTOP VERSION */
+@media (min-width: 992px) {
+    .navbar-brand {
+        border-image: 10px;
+        color: white !important;
+    }
+
+    .nav-link {
+        text-transform: uppercase;
+        margin-right: 30px;
+        color: white !important;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+    }
+
+    .nav-link:hover::after {
+        content: '';
+        display: block;
+        border-bottom: 3px solid steelblue;
+        width: 50%;
+        margin: auto;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+    }
+
+    .jumbotron {
+        margin-top: -66px;
+    }
+
+    .about {
+        text-align: left;
+    }
+}
